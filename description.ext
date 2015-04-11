@@ -1,0 +1,6 @@
+#include "defines.hpp"
+
+respawn      = "BASE";
+respawndelay = 5;
+disabledAI   = 1;
+enableDebugConsole = 1;
