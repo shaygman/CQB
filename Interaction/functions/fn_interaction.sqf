@@ -28,8 +28,8 @@ if (vehicle player == player) then
 	//Handle house
 	if (_target isKindof "house" || _target isKindof "wall") exitWith
 	{
-		[_target] execvm "Interaction\functions\fn_interactDoor.sqf";
-		//_null= [_target] call CQB_fnc_interactDoor
+		//[_target] execvm "Interaction\functions\fn_interactDoor.sqf";
+		_null= [_target] call CQB_fnc_interactDoor
 	};
 };
 
